@@ -1,0 +1,17 @@
+<div class="contador-container">
+    <h1>Contador de Cliques</h1>
+
+    <div class="diplay-contador">
+        {{totalCliques()}}
+    </div>
+
+    <div class="botoes-container">
+        <button (click)="incrementarContador()" class="btn-click">
+            Clicar Aqui!
+        </button>
+        <button (click)="resetarContador()" class="btn-reset">
+            Resetar
+        </button>
+
+    </div>
+</div>
